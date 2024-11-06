@@ -14,8 +14,6 @@ export default function page() {
         email,
       },
     });
-
-    console.log(data);
   };
 
   return (
@@ -30,7 +28,7 @@ export default function page() {
           <input
             type="text"
             name="name"
-            className="w-full p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+            className="w-full text-black -500 p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
             placeholder="Your Name"
             required
           />
@@ -40,7 +38,7 @@ export default function page() {
           <input
             type="email"
             name="email"
-            className="w-full p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+            className="w-full p-2 mt-2 text-black -500 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
             placeholder="Your Email"
             required
           />

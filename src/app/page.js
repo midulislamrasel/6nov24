@@ -32,7 +32,7 @@ export default function Home() {
           <input
             type="text"
             name="name"
-            className="w-full p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+            className="w-full text-black -500 p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
             placeholder="Your Name"
             required
           />
@@ -42,7 +42,7 @@ export default function Home() {
           <input
             type="email"
             name="email"
-            className="w-full p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+            className="w-full text-black p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
             placeholder="Your Email"
             required
           />
@@ -51,7 +51,7 @@ export default function Home() {
           <label className="block text-gray-700">Message</label>
           <textarea
             name="message"
-            className="w-full p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
+            className="w-full text-black -500 p-2 mt-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-blue-200"
             placeholder="Your Message"
             required
           />
